@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tabla</title>
+    
+</head>
+<body >
+    
+    <h2>Enlaces</h2>
+    <ul>
+        <li><a href="formulario.html">Formulario</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+        <li><a href="galeria.html">Galería de Imágenes</a></li>
+        <li><a href="bio.html">Acerca de</a></li>
+        <li><a href="ubi.html">Ubicación</a></li>
+    </ul>
+
+    <h1>DATOS DEL REGISTRADO</h1>
+    <table border="3">
+        <label for="buscador">Buscar: </label>
+    <input type="text" id="buscador" oninput="filtrarUsuarios()">
+        <tbody>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Email</th>
+                <th>Sexo</th>
+                <th>Acciones</th>
+            </tr>
+        </tbody>
+        <tbody id="tablaUsuarios">
+        </tbody>
+    </table>
+    <script src="js/datos.js"></script>
+</body>
+</html>

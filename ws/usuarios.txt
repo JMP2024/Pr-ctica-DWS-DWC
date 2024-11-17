@@ -1,0 +1,5 @@
+{"nombre":"pepe","apellidos":"lozano","password":"1234","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"masculino"}
+{"nombre":"manola","apellidos":"lopeta","password":"1234","tel":"634488702","email":"mimamamemima@gmail.com","sexo":"femenino"}
+{"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}
+{"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}
+{"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}

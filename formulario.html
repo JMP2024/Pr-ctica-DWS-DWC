@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Práctica 1</title>
+</head>
+
+<body>
+
+    <h2>Enlaces</h2>
+    <ul>
+        <li><a href="formulario.html">Formulario</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+        <li><a href="galeria.html">Galería de Imágenes</a></li>
+        <li><a href="bio.html">Acerca de</a></li>
+        <li><a href="ubi.html">Ubicación</a></li>
+    </ul>
+    <h1>FORMULARIO DE REGISTRO</h1>
+
+    <form action="ws/crearUsuario.php" method="POST">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+
+        <label for="password">Contraseña</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="tel">Telefono</label><br>
+        <input type="tel" id="tel" name="tel"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label> Sexo:</label><br>
+        <input type="radio" name="sexo" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="sexo" value="femenino">
+        <label for="femenino">Femenino</label><br><br>
+
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
