@@ -8,6 +8,18 @@ class AccesoPDO extends Conexion
         parent::__construct();
     }
 
+    public function ejecutar($query, $params)
+    {
+        try {
+            $sentencia = $this->conexion_db->prepare($query);
+            $resultado = $sentencia->execute($params);
+
+            return $resultado;
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+
     public function getUsuarios($id = null)
     {
         try {
@@ -93,7 +105,7 @@ class AccesoPDO extends Conexion
     public function crearUsuario($datos)
     {
         try {
-            $sql = "INSERT INTO alumno (nombre, apellidos, password, telefono, email, sexo, fecha_nacimiento ) VALUES (:nombre, :apellidos, :password, :telefono, :email, :sexo, :fecha_nacimiento)";
+            $sql = "INSERT INTO alumno (nombre, apellidos, password, telefono, email, sexo, fecha_nacimiento) VALUES (:nombre, :apellidos, :password, :telefono, :email, :sexo, :fecha_nacimiento)";
             $sentencia = $this->conexion_db->prepare($sql);
             $sentencia->execute([
                 ':nombre' => $datos['nombre'],

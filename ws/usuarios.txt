@@ -3,3 +3,15 @@
 {"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}
 {"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}
 {"nombre":null,"apellidos":null,"password":null,"tel":null,"email":null,"sexo":null}
+{"nombre":"pepe","apellidos":"Jorge Martinez","password":"","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"femenino"}
+{"nombre":"d","apellidos":"Jorge Martinez","password":"c","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"masculino"}
+{"nombre":"","apellidos":"","password":"","tel":"","email":"","sexo":null}
+{"nombre":"d","apellidos":"Jorge Martinez","password":"c","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"masculino"}
+{"nombre":"","apellidos":"","password":"","tel":"","email":"","sexo":null}
+{"nombre":"pepe","apellidos":"d","password":"d","tel":"d","email":"d@d","sexo":"masculino"}
+{"nombre":"pepe","apellidos":"Jorge Martinez","password":"a","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"masculino"}
+{"nombre":"pepe","apellidos":"Jorge Martinez","password":"a","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"masculino"}
+{"nombre":"pepe","apellidos":"zx","password":"1","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"femenino"}
+{"nombre":"Manuelo","apellidos":"a","password":"a","tel":"a","email":"a@a","sexo":"masculino"}
+{"nombre":"pepe","apellidos":"Jorge Martinez","password":"a","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"femenino"}
+{"nombre":"Manuelo","apellidos":"popo","password":"aaaaaaaaaaa","tel":"634488701","email":"jorgemartinezperezoso@gmail.com","sexo":"femenino"}

@@ -1,4 +1,4 @@
-// Insertar el contenido del archivo `nav.html` con el addEventListener para que 
+// Insertar el contenido del archivo `nav.html` con el addEventListener 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("nav.html")
     .then((response) => {
@@ -13,13 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 function resaltarRuta() {
-  // Obtener la última parte de la URL 
   const rutaActual = window.location.pathname.split("/").pop();
-
-  // Buscar el enlace cuyo `href` coincida con la ruta actual
   const linkActivo = document.querySelector(`a[href="${rutaActual}"]`);
   if (linkActivo) {
-    // Agregar la clase `activo` al enlace encontrado
     linkActivo.classList.add("activo");
   }
 }
